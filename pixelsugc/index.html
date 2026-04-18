@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pixelated Saishi - Pixels UGC Catalog</title>
@@ -12,17 +12,18 @@
 
 <body>
 
+<!-- SCROLL PROGRESS -->
 <div id="scrollProgress"></div>
 
 <header>
   <nav>
-    <div class="logo" onclick="navigate('/')">
+    <div class="logo" onclick="window.location.href='/'">
       <img src="/assets/me.png" class="logo-avatar" alt="Saishi">
       <span class="logo-text">PIXELATED SAISHI</span>
     </div>
 
     <ul class="menu">
-      <li><a href="/">About Me</a></li>
+      <li><a href="/aboutme/">About Me</a></li>
 
       <li>
         <a href="/pixelsugc/" class="current">Pixels UGC Catalog</a>
@@ -36,7 +37,7 @@
       </li>
 
       <li>
-        <a href="/commission/">Commission</a>
+        <a href="/commission/" >Commission</a>
         <ul class="submenu">
           <li><a href="/commission/#commissionsheet">Commission Sheet</a></li>
           <li><a href="/commission/#paymentinfo">Payment Info</a></li>
@@ -51,18 +52,18 @@
     </div>
   </nav>
 </header>
-
-<div class="top-ad">
+    <div class="top-ad">
   Creator Code: <strong>Saishi</strong> for 5% Pixels Purchase in-game
 </div>
 
+<!-- MOBILE -->
 <div class="mobile-menu-overlay" id="mobileOverlay" onclick="toggleMobile()"></div>
 
 <div class="mobile-menu" id="mobileMenu">
   <div class="mobile-close" onclick="toggleMobile()">✕</div>
 
   <ul>
-    <li><a href="/">About Me</a></li>
+    <li><a href="/aboutme/">About Me</a></li>
 
     <li class="has-submenu">
       <a onclick="toggleSubmenu(this)">
@@ -81,22 +82,24 @@
       <a onclick="toggleSubmenu(this)">
         Commission <span class="arrow">▶</span>
       </a>
-      <ul class="mobile-submenu">
-        <li><a href="/commission/#commissionsheet">Commission Sheet</a></li>
-        <li><a href="/commission/#paymentinfo">Payment Info</a></li>
-        <li><a href="/commission/#clientwork">Client Work</a></li>
-        <li><a href="/commission/#terms">Terms and Condition</a></li>
-      </ul>
-    </li>
+        <ul class="mobile-submenu">
+          <li><a href="/commission/#commissionsheet">Commission Sheet</a></li>
+          <li><a href="/commission/#paymentinfo">Payment Info</a></li>
+          <li><a href="/commission/#clientwork">Client Work</a></li>
+          <li><a href="/commission/#terms">Terms and Condition</a></li>
+        </ul>
+      </li>
+  </ul>
   </ul>
 </div>
 
+<!-- MAIN -->
 <main>
   <h1>Pixels UGC Catalog</h1>
   <p>Discover my creations within the Pixels universe.</p>
   
   <section id="bundles" class="catalog-section">
-    <h2>Bundle Pixels UGC</h2>
+    <h2>Bundle Pixels UGC </h2>
     <h4 class="section-discount">Best Deals</h4>
     <div id="bundlesGrid" class="grid"></div>
   </section>
@@ -126,21 +129,26 @@
   </section>
 </main>
 
+<!-- POPUP -->
 <div id="popupOverlay">
   <div id="popupCard" onclick="event.stopPropagation()">
     <div id="popupClose" onclick="closePopup()">×</div>
 
-    <div id="popupCardInner"></div>
-    <div id="popupCardName"></div>
-    <div id="popupDescription"></div>
+<div id="popupCardInner"></div>
+<div id="popupCardName"></div>
 
-    <a id="popupBuyNow" target="_blank">Buy Now</a>
+<div id="popupDescription"></div>
+
+<a id="popupBuyNow" target="_blank">Buy Now</a>
   </div>
 </div>
 
+<!-- ACTION GATE POPUP -->
 <div id="actionOverlay" class="action-overlay">
   <div class="action-card" onclick="event.stopPropagation()">
+
     <div class="action-close" onclick="closeActionPopup()">×</div>
+
     <div class="action-title">Choose an action</div>
 
     <button class="action-btn" onclick="openGoogleForm()">
@@ -150,6 +158,7 @@
     <button class="action-btn" onclick="openDiscord()">
       Join Discord & Create Ticket
     </button>
+
   </div>
 </div>
 
@@ -164,9 +173,10 @@
   </div>
 </footer>
 
+
 <button id="scrollTopBtn" onclick="scrollToTop()">⇧</button>
 
-<script src="/js/pixelsugc.js"></script>
 
+<script src="/js/pixelsugc.js"></script>
 </body>
 </html>
