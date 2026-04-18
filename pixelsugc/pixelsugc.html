@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pixelated Saishi - Pixels UGC Catalog</title>
+
+<link rel="icon" href="/assets/me.png" type="image/png">
+<link rel="stylesheet" href="/css/pixelsugc.css">
+</head>
+
+<body>
+
+<!-- SCROLL PROGRESS -->
+<div id="scrollProgress"></div>
+
+<header>
+  <nav>
+    <div class="logo" onclick="navigate('index.html')">
+      <img src="/assets/me.png" class="logo-avatar" alt="Saishi">
+      <span class="logo-text">PIXELATED SAISHI</span>
+    </div>
+
+    <ul class="menu">
+      <li><a href="index.html">About Me</a></li>
+
+      <li>
+        <a href="pixelsugc.html" class="current">Pixels UGC Catalog</a>
+        <ul class="submenu">
+          <li><a href="pixelsugc.html#bundles">Bundle Pixels UGC</a></li>
+          <li><a href="pixelsugc.html#pixelsugc">Pixels UGC</a></li>
+          <li><a href="pixelsugc.html#walldecor">Wall Decor Pixels UGC</a></li>
+          <li><a href="pixelsugc.html#metaheadverse">MetaHeadverse Pixels UGC</a></li>
+          <li><a href="pixelsugc.html#bobverse">Bobverse Pixels UGC</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="commission.html" >Commission</a>
+        <ul class="submenu">
+          <li><a href="commission.html#commissionsheet">Commission Sheet</a></li>
+          <li><a href="commission.html#paymentinfo">Payment Info</a></li>
+          <li><a href="commission.html#clientwork">Client Work</a></li>
+          <li><a href="commission.html#terms">Terms and Condition</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="hamburger" onclick="toggleMobile()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+</header>
+    <div class="top-ad">
+  Creator Code: <strong>Saishi</strong> for 5% Pixels Purchase in-game
+</div>
+
+<!-- MOBILE -->
+<div class="mobile-menu-overlay" id="mobileOverlay" onclick="toggleMobile()"></div>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-close" onclick="toggleMobile()">✕</div>
+
+  <ul>
+    <li><a href="index.html">About Me</a></li>
+
+    <li class="has-submenu">
+      <a onclick="toggleSubmenu(this)">
+        Pixels UGC Catalog <span class="arrow">▶</span>
+      </a>
+      <ul class="mobile-submenu">
+        <li><a href="pixelsugc.html#pixelsugc">Pixels UGC</a></li>
+        <li><a href="pixelsugc.html#walldecor">Wall Decor</a></li>
+        <li><a href="pixelsugc.html#metaheadverse">MetaHeadverse Pixels UGC</a></li>
+        <li><a href="pixelsugc.html#bobverse">Bobverse Pixels UGC</a></li>
+        <li><a href="pixelsugc.html#bundles">Bundle Pixels UGC</a></li>
+      </ul>
+    </li>
+
+    <li class="has-submenu">
+      <a onclick="toggleSubmenu(this)">
+        Commission <span class="arrow">▶</span>
+      </a>
+        <ul class="mobile-submenu">
+          <li><a href="commission.html#commissionsheet">Commission Sheet</a></li>
+          <li><a href="commission.html#paymentinfo">Payment Info</a></li>
+          <li><a href="commission.html#clientwork">Client Work</a></li>
+          <li><a href="commission.html#terms">Terms and Condition</a></li>
+        </ul>
+      </li>
+  </ul>
+  </ul>
+</div>
+
+<!-- MAIN -->
+<main>
+  <h1>Pixels UGC Catalog</h1>
+  <p>Discover my creations within the Pixels universe.</p>
+  
+  <section id="bundles" class="catalog-section">
+    <h2>Bundle Pixels UGC </h2>
+    <h4 class="section-discount">Best Deals</h4>
+    <div id="bundlesGrid" class="grid"></div>
+  </section>
+
+  <section id="pixelsugc" class="catalog-section">
+    <h2>Pixels UGC</h2>
+    <h4 class="section-discount">Save Up to 60% OFF</h4>
+    <div id="pixelsugcGrid" class="grid"></div>
+  </section>
+
+  <section id="walldecor" class="catalog-section">
+    <h2>Wall Decor Pixels UGC</h2>
+    <h4 class="section-discount">All items 50% OFF</h4>
+    <div id="walldecorGrid" class="grid"></div>
+  </section>
+
+  <section id="metaheadverse" class="catalog-section">
+    <h2>MetaHeadverse Pixels UGC</h2>
+    <h4 class="section-discount">Exclusive for MetaHeadverse Member</h4>
+    <div id="metaheadverseGrid" class="grid"></div>
+  </section>
+  
+  <section id="bobverse" class="catalog-section">
+    <h2>Bobverse Pixels UGC</h2>
+    <h4 class="section-discount">All items 50% OFF</h4>
+    <div id="bobverseGrid" class="grid"></div>
+  </section>
+</main>
+
+<!-- POPUP -->
+<div id="popupOverlay">
+  <div id="popupCard" onclick="event.stopPropagation()">
+    <div id="popupClose" onclick="closePopup()">×</div>
+
+<div id="popupCardInner"></div>
+<div id="popupCardName"></div>
+
+<div id="popupDescription"></div>
+
+<a id="popupBuyNow" target="_blank">Buy Now</a>
+  </div>
+</div>
+
+<!-- ACTION GATE POPUP -->
+<div id="actionOverlay" class="action-overlay">
+  <div class="action-card" onclick="event.stopPropagation()">
+
+    <div class="action-close" onclick="closeActionPopup()">×</div>
+
+    <div class="action-title">Choose an action</div>
+
+    <button class="action-btn" onclick="openGoogleForm()">
+      Submit a Google Form
+    </button>
+
+    <button class="action-btn" onclick="openDiscord()">
+      Join Discord & Create Ticket
+    </button>
+
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="socials">
+      <a href="#">X</a>
+      <a href="#">YouTube</a>
+      <a href="#">Discord</a>
+    </div>
+    <div class="copyright">© 2026 PIXELATED SAISHI</div>
+  </div>
+</footer>
+
+
+<button id="scrollTopBtn" onclick="scrollToTop()">⇧</button>
+
+<script src="/js/core.js"></script>
+<script src="js/pixelsugc.js"></script>
+</body>
+</html>
