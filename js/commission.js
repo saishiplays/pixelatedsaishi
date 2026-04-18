@@ -7,7 +7,7 @@ let commissionItems = [];
 let currentGoogleFormLink = GOOGLE_FORM_LINK;
 
 const clientWorks = [
-  { src: "../assets/clientworks/swing.gif", types: ["Integrated"] },
+  { src: "../assets/clientworks/swing.gif", types: ["Pending"] },
   { src: "../assets/clientworks/teddy.gif", types: ["Pending"] },
   { src: "../assets/clientworks/bobinoor.gif", types: ["Integrated"] },
   { src: "../assets/clientworks/moon.gif", types: ["Pending"] },
@@ -104,15 +104,36 @@ function initLightbox() {
 /* =========================
    POPUP
 ========================= */
-function openPopup(image, name, link) {
+function openPopup(image, name, link, item = {}) {
   const overlay = document.getElementById("popupOverlay");
   const img = document.getElementById("popupImg");
   const title = document.getElementById("popupCardName");
+  const details = document.getElementById("popupDetails");
 
   if (!overlay) return;
 
   img.src = image;
   title.textContent = name;
+
+  details.innerHTML = `
+    <p class="details-title">Commission Details:</p>
+    <div class="details-row">
+    <span class="details-info">Size: </span>
+    <span class="details-text">${item.size || "--"}</span></div>
+    
+    <div class="details-row">
+    <span class="details-info">Frame/s: </span>
+    <span class="details-text">${item.frames || "--"}</span></div>
+
+    <div class="details-row">
+    <span class="details-info">Type: </span>
+    <span class="details-text">${item.type || "--"}</span></div>
+
+    <div class="details-row">
+    <span class="details-info">Pricing: </span>
+    <span class="details-text">${item.pricing || "--"}</span></div>
+
+  `;
 
   currentGoogleFormLink = link || GOOGLE_FORM_LINK;
   overlay.style.display = "flex";
@@ -151,7 +172,7 @@ function renderCommissionGrid() {
     ` : ""}
 
     <div class="card-price-overlay">
-      <span>${item.price}</span>
+      <span>${item.pricing}</span>
     </div>
 
   </div>
@@ -160,7 +181,7 @@ function renderCommissionGrid() {
 `;
 
     card.onclick = () =>
-      openPopup(item.image, item.name, GOOGLE_FORM_LINK);
+      openPopup(item.image, item.name, GOOGLE_FORM_LINK, item);
 
     grid.appendChild(card);
   });
