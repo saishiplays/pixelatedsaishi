@@ -780,14 +780,19 @@ footer { border-top: 1px solid rgba(255,255,255,0.08); padding: 28px 20px; backg
 }
 #popupDescription {
   margin-top: 10px;
-  padding: 8px 10px;
-
-  background: rgba(0, 25, 18, 0.45);
-  border: 1px solid rgba(25,245,163,0.12);
-  border-radius: 10px;
+  padding: 10px 12px;
 
   font-size: 12px;
-  line-height: 1.35;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.85);
+
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5px;
 }
 
 .bundle-title {
@@ -795,6 +800,8 @@ footer { border-top: 1px solid rgba(255,255,255,0.08); padding: 28px 20px; backg
   font-weight: 600;
   font-size: 11.5px;
   color: #e9fff6;
+  text-align: center;
+  
 }
 
 .bundle-row {
@@ -809,17 +816,19 @@ footer { border-top: 1px solid rgba(255,255,255,0.08); padding: 28px 20px; backg
 }
 
 .bundle-count {
+  flex: 0 0 70px; /* fixed column width (IMPORTANT) */
+
   background: linear-gradient(135deg, #ffffff, #e8fff6);
   color: #063528;
 
   font-weight: 800;
-  font-size: 10px;
+  font-size: 12px;
 
   padding: 3px 6px;
   border-radius: 6px;
 
-  min-width: 48px;
   text-align: center;
+  white-space: nowrap;
 }
 
 .bundle-text {
