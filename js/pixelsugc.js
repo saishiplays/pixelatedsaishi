@@ -37,7 +37,7 @@ let allItems = [];
 console.log("pixelsugc.js loaded");
 
 // FIX: correct JSON path (it is NOT inside js/ folder unless you explicitly put it there)
-fetch("json/pixelsugc.json")
+fetch("/json/pixelsugc.json")
   .then(res => {
     if (!res.ok) throw new Error("JSON not found: " + res.status);
     return res.json();
@@ -64,9 +64,9 @@ function renderGrid(gridId, type) {
 
   grid.innerHTML = "";
 
-  const filtered = allItems.filter(item =>
-    item.types && item.types.includes(type)
-  );
+const filtered = allItems.filter(item =>
+  item.types && item.types.includes(type)
+);
 
   filtered.forEach(item => {
     const card = document.createElement("div");
@@ -150,34 +150,17 @@ const typeStyles = {
 
 document.addEventListener("DOMContentLoaded", () => {
   const scrollBtn = document.getElementById("scrollTopBtn");
-
   if (!scrollBtn) return;
 
   window.addEventListener("scroll", () => {
     const scrollY = window.scrollY || document.documentElement.scrollTop;
 
-    if (scrollY > 300) {
-      scrollBtn.classList.add("show");
-    } else {
-      scrollBtn.classList.remove("show");
-    }
+    scrollBtn.classList.toggle("show", scrollY > 300);
   });
 
   scrollBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
-});
-
-const scrollBtn = document.getElementById("scrollTopBtn");
-
-window.addEventListener("scroll", () => {
-  const scrollY = window.scrollY || document.documentElement.scrollTop;
-
-  if (scrollY > 300) {
-    scrollBtn.classList.add("show");
-  } else {
-    scrollBtn.classList.remove("show");
-  }
 });
 
 function scrollToTop() {
@@ -259,26 +242,30 @@ document.getElementById("popupOverlay").onclick = function() {
   closePopup();
 };
 
-document.getElementById("popupDescription").innerHTML = `
-<p class="bundle-title">Buy more UGC, unlock guaranteed rewards instantly:</p>
+const desc = document.getElementById("popupDescription");
 
-<div class="bundle-row">
-  <span class="bundle-count">5 UGC</span>
-  <span class="bundle-text">1 FREE UGC Random Spin</span>
-</div>
+if (desc) {
+  desc.innerHTML = `
+    <p class="bundle-title">Buy more UGC, unlock guaranteed rewards instantly:</p>
 
-<div class="bundle-row">
-  <span class="bundle-count">10 UGC</span>
-  <span class="bundle-text">1 FREE Random Spin + 1 UGC of Your Choice</span>
-</div>
+    <div class="bundle-row">
+      <span class="bundle-count">5 UGC</span>
+      <span class="bundle-text">1 FREE UGC Random Spin</span>
+    </div>
 
-<div class="bundle-row">
-  <span class="bundle-count">20 UGC</span>
-  <span class="bundle-text">2 FREE Random Spins + 2 UGC of Your Choice</span>
-</div>
+    <div class="bundle-row">
+      <span class="bundle-count">10 UGC</span>
+      <span class="bundle-text">1 FREE Random Spin + 1 UGC of Your Choice</span>
+    </div>
 
-<div class="bundle-row">
-  <span class="bundle-count">30 UGC</span>
-  <span class="bundle-text">3 FREE Random Spins + 3 UGC of Your Choice</span>
-</div>
-`;
+    <div class="bundle-row">
+      <span class="bundle-count">20 UGC</span>
+      <span class="bundle-text">2 FREE Random Spins + 2 UGC of Your Choice</span>
+    </div>
+
+    <div class="bundle-row">
+      <span class="bundle-count">30 UGC</span>
+      <span class="bundle-text">3 FREE Random Spins + 3 UGC of Your Choice</span>
+    </div>
+  `;
+}
