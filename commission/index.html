@@ -4,34 +4,36 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pixelated Saishi - Commission</title>
-<link rel="icon" href="assets/me.png" type="image/png">
-<link rel="stylesheet" href="css/commission.css">
+
+<link rel="icon" href="/assets/me.png" type="image/png">
+<link rel="stylesheet" href="/css/commission.css">
 </head>
 <body>
 
 <!-- SCROLL PROGRESS -->
 <div id="scrollProgress"></div>
 
-
 <header>
   <nav>
-    <div class="logo" onclick="navigate('index.html')">
-      <img src="assets/me.png" alt="Saishi" class="logo-avatar">
+    <div class="logo" onclick="navigate('/')">
+      <img src="/assets/me.png" alt="Saishi" class="logo-avatar">
       <span class="logo-text">PIXELATED SAISHI</span>
     </div>
 
     <ul class="menu">
-      <li><a href="index.html">About Me</a></li>
+      <li><a href="/">About Me</a></li>
+
       <li>
-        <a href="pixelsugc.html">Pixels UGC Catalog</a>
+        <a href="/pixelsugc/">Pixels UGC Catalog</a>
         <ul class="submenu">
-          <li><a href="pixelsugc.html#bundles">Bundle Pixels UGC</a></li>
-          <li><a href="pixelsugc.html#pixelsugc">Pixels UGC</a></li>
-          <li><a href="pixelsugc.html#walldecor">Wall Decor Pixels UGC</a></li>
-          <li><a href="pixelsugc.html#metaheadverse">MetaHeadverse Pixels UGC</a></li>
-          <li><a href="pixelsugc.html#bobverse">Bobverse Pixels UGC</a></li>
+          <li><a href="/pixelsugc/#bundles">Bundle Pixels UGC</a></li>
+          <li><a href="/pixelsugc/#pixelsugc">Pixels UGC</a></li>
+          <li><a href="/pixelsugc/#walldecor">Wall Decor Pixels UGC</a></li>
+          <li><a href="/pixelsugc/#metaheadverse">MetaHeadverse Pixels UGC</a></li>
+          <li><a href="/pixelsugc/#bobverse">Bobverse Pixels UGC</a></li>
         </ul>
       </li>
+
       <li>
         <a href="/commission/" class="current">Commission</a>
         <ul class="submenu">
@@ -43,14 +45,15 @@
       </li>
     </ul>
 
-    <div class="hamburger" onclick="toggleMobile()"><span></span><span></span><span></span></div>
+    <div class="hamburger" onclick="toggleMobile()">
+      <span></span><span></span><span></span>
+    </div>
   </nav>
 </header>
 
 <div class="top-ad">
   Creator Code: <strong>Saishi</strong> for 5% Pixels Purchase in-game
 </div>
-
 
 <!-- MOBILE -->
 <div class="mobile-menu-overlay" id="mobileOverlay" onclick="toggleMobile()"></div>
@@ -59,138 +62,99 @@
   <div class="mobile-close" onclick="toggleMobile()">✕</div>
 
   <ul>
-    <li><a href="index.html" >About Me</a></li>
+    <li><a href="/">About Me</a></li>
 
     <li class="has-submenu">
       <a onclick="toggleSubmenu(this)">
         Pixels UGC Catalog <span class="arrow">▶</span>
       </a>
       <ul class="mobile-submenu">
-          <li><a href="pixelsugc.html#bundles">Bundle Pixels UGC</a></li>
-          <li><a href="pixelsugc.html#pixelsugc">Pixels UGC</a></li>
-          <li><a href="pixelsugc.html#walldecor">Wall Decor Pixels UGC</a></li>
-          <li><a href="pixelsugc.html#metaheadverse">MetaHeadverse Pixels UGC</a></li>
-          <li><a href="pixelsugc.html#bobverse">Bobverse Pixels UGC</a></li>
-        </ul>
+        <li><a href="/pixelsugc/#bundles">Bundle Pixels UGC</a></li>
+        <li><a href="/pixelsugc/#pixelsugc">Pixels UGC</a></li>
+        <li><a href="/pixelsugc/#walldecor">Wall Decor Pixels UGC</a></li>
+        <li><a href="/pixelsugc/#metaheadverse">MetaHeadverse Pixels UGC</a></li>
+        <li><a href="/pixelsugc/#bobverse">Bobverse Pixels UGC</a></li>
+      </ul>
     </li>
 
     <li class="has-submenu">
       <a onclick="toggleSubmenu(this)">
         Commission <span class="arrow">▶</span>
       </a>
-        <ul class="mobile-submenu">
-          <li><a href="/commission/#commissionsheet">Commission Sheet</a></li>
-          <li><a href="/commission/#paymentinfo">Payment Info</a></li>
-          <li><a href="/commission/#clientwork">Client Work</a></li>
-          <li><a href="/commission/#terms">Terms and Policies</a></li>
-        </ul>
-      </li>
-  </ul>
+      <ul class="mobile-submenu">
+        <li><a href="/commission/#commissionsheet">Commission Sheet</a></li>
+        <li><a href="/commission/#paymentinfo">Payment Info</a></li>
+        <li><a href="/commission/#clientwork">Client Work</a></li>
+        <li><a href="/commission/#terms">Terms and Policies</a></li>
+      </ul>
+    </li>
   </ul>
 </div>
 
 <main>
   <h1>Commission</h1>
-    <p> Pixel artist ready to bring your ideas to life.</p>
+  <p>Pixel artist ready to bring your ideas to life.</p>
 
 <section id="commissionsheet" class="catalog-section">
-  <h2 >Commission Sheet</h2>
-
+  <h2>Commission Sheet</h2>
   <div class="grid" id="commissionGrid"></div>
-
-  </div>
 </section>
-<section id="paymentinfo" >
-    <h2>Payment Info</h2>
-  <!-- LEFT IMAGE -->
+
+<section id="paymentinfo">
+  <h2>Payment Info</h2>
+
   <div class="hero">
+    <div class="hero-content">
 
-  <!-- RIGHT TEXT -->
-  <div class="hero-content">
+      <div class="wallet-box">
+        <div class="wallet-top">
+          <span class="wallet-label">SECURE WALLET ADDRESS</span>
+        </div>
 
-    <div class="wallet-box">
-  <div class="wallet-top">
-    <span class="wallet-label">SECURE WALLET ADDRESS</span>
+        <div class="wallet-address">
+          0x0c2406481fEb3FB319aA9718F1F5a146Eb46475B
+        </div>
+      </div>
+
+      <div class="policy-box">
+        <div class="policy-item">USD / PIXELS / RON only</div>
+        <div class="policy-item">Ronin Wallet only</div>
+        <div class="policy-item">Half/Full payment upfront</div>
+        <div class="policy-item">No refunds after work starts</div>
+        <div class="policy-item">USD-based pricing (auto-converted)</div>
+        <div class="policy-item">Client covers transaction fees</div>
+      </div>
+
+    </div>
   </div>
-
-  <div class="wallet-address">
-    0x0c2406481fEb3FB319aA9718F1F5a146Eb46475B
-  </div>
-</div>
-
-<div class="policy-box">
-  <div class="policy-item">USD / PIXELS / RON only</div>
-  <div class="policy-item">Ronin Wallet only</div>
-  <div class="policy-item">Half/Full payment upfront</div>
-  <div class="policy-item">No refunds after work starts</div>
-  <div class="policy-item">USD-based pricing (auto-converted)</div>
-  <div class="policy-item">Client covers transaction fees</div>
-</div>
-
-</div>
 </section>
 
 <section id="clientwork">
 
-  <h2 >Client Work</h2>
+  <h2>Client Work</h2>
 
   <div class="carousel-wrapper">
     <div class="carousel-track" id="clientCarousel">
-       <div class="card-type-overlay"></div>
 
-      <div class="carousel-card" data-type="pending">
-      <div class="card-type-overlay">
-      <span class="type-badge pending">PENDING APPROVAL</span></div>
-        <img src="assets/clientworks/swing.gif" class="carousel-item clickable-work"></div>
+      <div class="carousel-card">
+        <img src="/assets/clientworks/swing.gif" class="carousel-item clickable-work">
+      </div>
 
+      <div class="carousel-card">
+        <img src="/assets/clientworks/teddy.gif" class="carousel-item clickable-work">
+      </div>
 
-      <div class="carousel-card" data-type="pending">
-      <div class="card-type-overlay">
-      <span class="type-badge pending">PENDING APPROVAL</span></div>
-        <img src="assets/clientworks/teddy.gif" class="carousel-item clickable-work"></div>
+      <div class="carousel-card">
+        <img src="/assets/clientworks/bobinoor.gif" class="carousel-item clickable-work">
+      </div>
 
-      <div class="carousel-card" data-type="integrated">
-      <div class="card-type-overlay">
-      <span class="type-badge integrated">INTEGRATED</span></div>
-        <img src="assets/clientworks/bobinoor.gif" class="carousel-item clickable-work"></div>
+      <div class="carousel-card">
+        <img src="/assets/clientworks/moon.gif" class="carousel-item clickable-work">
+      </div>
 
-      <div class="carousel-card" data-type="pending">
-      <div class="card-type-overlay">
-      <span class="type-badge pending">PENDING APPROVAL</span></div>
-        <img src="assets/clientworks/moon.gif" class="carousel-item clickable-work"></div>
-
-      <div class="carousel-card" data-type="pending">
-      <div class="card-type-overlay">
-      <span class="type-badge pending">PENDING APPROVAL</span></div>
-        <img src="assets/clientworks/stateu.gif" class="carousel-item clickable-work"></div>
-
-        <!CAROUSEL DUPLICATE>
-
-        <div class="carousel-card" data-type="pending">
-      <div class="card-type-overlay">
-      <span class="type-badge pending">PENDING APPROVAL</span></div>
-        <img src="assets/clientworks/swing.gif" class="carousel-item clickable-work"></div>
-
-
-      <div class="carousel-card" data-type="pending">
-      <div class="card-type-overlay">
-      <span class="type-badge pending">PENDING APPROVAL</span></div>
-        <img src="assets/clientworks/teddy.gif" class="carousel-item clickable-work"></div>
-
-      <div class="carousel-card" data-type="integrated">
-      <div class="card-type-overlay">
-      <span class="type-badge integrated">INTEGRATED</span></div>
-        <img src="assets/clientworks/bobinoor.gif" class="carousel-item clickable-work"></div>
-
-      <div class="carousel-card" data-type="pending">
-      <div class="card-type-overlay">
-      <span class="type-badge pending">PENDING</span></div>
-        <img src="assets/clientworks/moon.gif" class="carousel-item clickable-work"></div>
-
-      <div class="carousel-card" data-type="pending">
-      <div class="card-type-overlay">
-      <span class="type-badge pending">PENDING APPROVAL</span></div>
-        <img src="assets/clientworks/stateu.gif" class="carousel-item clickable-work"></div>
+      <div class="carousel-card">
+        <img src="/assets/clientworks/stateu.gif" class="carousel-item clickable-work">
+      </div>
 
     </div>
   </div>
@@ -202,7 +166,6 @@
   <h2>Terms & Conditions</h2>
 
   <div class="terms-box">
-
     <div class="terms-item">
       <span class="terms-title">Content Restrictions</span>
       <p>I reserve the right to refuse NSFW, hate symbols, illegal content, or anything violating game rules.</p>
@@ -294,11 +257,12 @@
 <button id="scrollTopBtn" onclick="scrollToTop()">⇧</button>
 
 <script src="/js/core.js"></script>
-<script src="js/commission.js"></script>
+<script src="/js/commission.js"></script>
 
 <div class="image-lightbox" id="imageLightbox">
   <span class="lightbox-close" id="lightboxClose">✕</span>
   <img id="lightboxImg" src="" alt="">
 </div>
+
 </body>
 </html>
