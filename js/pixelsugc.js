@@ -98,7 +98,7 @@ card.innerHTML = `
   <img src="${item.image}" alt="${item.name}">
 
   <div class="card-price-overlay">
-    <img src="assets/pixel.png">
+    <img src="/assets/pixel.png">
     <span>${item.price}</span>
   </div>
 </div>
