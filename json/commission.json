@@ -2,37 +2,37 @@
   "items": [
     {
       "name": "Small Static Pixels UGC",
-      "image": "assets/small-static-sample.png",
+      "image": "/assets/small-static-sample.png",
       "price": "$5.99 - $8.99",
       "type": "small-static"
     },
     {
       "name": "Small Animated Pixels UGC",
-      "image": "assets/small-animated-sample.gif",
+      "image": "/assets/small-animated-sample.gif",
       "price": "$7.99 - $10.99",
       "type": "small-animated"
     },
     {
       "name": "Medium Static Pixels UGC",
-      "image": "assets/medium-static-sample.png",
+      "image": "/assets/medium-static-sample.png",
       "price": "$9.99 - $12.99",
       "type": "medium-static"
     },
     {
       "name": "Medium Animated Pixels UGC",
-      "image": "assets/medium-animated-sample.gif",
+      "image": "/assets/medium-animated-sample.gif",
       "price": "$11.99 - $14.99",
       "type": "medium-animated"
     },
     {
       "name": "Big Static Pixels UGC",
-      "image": "assets/big-static-sample.png",
+      "image": "/assets/big-static-sample.png",
       "price": "$13.99 - $16.99",
       "type": "big-static"
     },
     {
       "name": "Big Animated Pixels UGC",
-      "image": "assets/big-animated-sample.gif",
+      "image": "/assets/big-animated-sample.gif",
       "price": "$15.99 - $18.99",
       "type": "big-animated"
     }
