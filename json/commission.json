@@ -3,38 +3,50 @@
     {
       "name": "Small Static Pixels UGC",
       "image": "/assets/small-static-sample.png",
-      "price": "$5.99 - $8.99",
-      "type": "small-static"
+      "pricing": "$5.99 - $8.99",
+      "type": "Small UGC [File: PNG] Wall Decor",
+      "size": "38x48 px [Small Size Range: 16–55 px]",
+      "frames": "1 frame"
     },
     {
       "name": "Small Animated Pixels UGC",
       "image": "/assets/small-animated-sample.gif",
-      "price": "$7.99 - $10.99",
-      "type": "small-animated"
+      "pricing": "$7.99 - $10.99",
+      "type": "Small UGC [File: GIF] Wall Decor",
+      "size": "31x55 px [Small Size Range: 16–55 px]",
+      "frames": "8 frames"
     },
     {
       "name": "Medium Static Pixels UGC",
       "image": "/assets/medium-static-sample.png",
-      "price": "$9.99 - $12.99",
-      "type": "medium-static"
+      "pricing": "$9.99 - $12.99",
+      "type": "Medium UGC [File: PNG] Pixels UGC",
+      "size": "46x79 px [Small Size Range: 56–100 px]",
+      "frames": "1 frame"
     },
     {
       "name": "Medium Animated Pixels UGC",
       "image": "/assets/medium-animated-sample.gif",
-      "price": "$11.99 - $14.99",
-      "type": "medium-animated"
+      "pricing": "$11.99 - $14.99",
+      "type": "Medium UGC [File: GIF] Pixels UGC",
+      "size": "48x82 px [Small Size Range: 56–100 px]",
+      "frames": "8 frames"
     },
     {
       "name": "Big Static Pixels UGC",
       "image": "/assets/big-static-sample.png",
-      "price": "$13.99 - $16.99",
-      "type": "big-static"
+      "pricing": "$13.99 - $16.99",
+      "type": "Big UGC [File: PNG] Pixels UGC",
+      "size": "112x105 px [Big Size Range: 101–128 px]",
+      "frames": "1 frame"
     },
     {
       "name": "Big Animated Pixels UGC",
       "image": "/assets/big-animated-sample.gif",
-      "price": "$15.99 - $18.99",
-      "type": "big-animated"
+      "pricing": "$15.99 - $18.99",
+      "type": "Big UGC [File: GIF] Pixels UGC",
+      "size": "121x116 px [Big Size Range: 101–128 px]",
+      "frames": "8 frames"
     }
   ]
 }
