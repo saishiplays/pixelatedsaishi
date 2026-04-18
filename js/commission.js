@@ -6,6 +6,14 @@ const GOOGLE_FORM_LINK = "https://forms.gle/NComiSEFEUrrpAvp8";
 let commissionItems = [];
 let currentGoogleFormLink = GOOGLE_FORM_LINK;
 
+const clientWorks = [
+  { src: "../assets/clientworks/swing.gif", types: ["Integrated"] },
+  { src: "../assets/clientworks/teddy.gif", types: ["Pending"] },
+  { src: "../assets/clientworks/bobinoor.gif", types: ["Integrated"] },
+  { src: "../assets/clientworks/moon.gif", types: ["Pending"] },
+  { src: "../assets/clientworks/stateu.gif", types: ["Integrated"] }
+];
+
 /* =========================
    MOBILE MENU
 ========================= */
@@ -128,15 +136,28 @@ function renderCommissionGrid() {
     card.className = "card";
 
     card.innerHTML = `
-      <div class="card-image-wrap">
-        <img src="${item.image}" alt="${item.name}">
-        <div class="card-price-overlay">
-          <span>${item.price}</span>
-        </div>
-      </div>
+  <div class="card-image-wrap">
 
-      <div class="card-title">${item.name}</div>
-    `;
+    <img src="${item.image}" alt="${item.name}">
+
+    ${item.types ? `
+      <div class="card-type-overlay">
+        ${item.types.map(type => `
+          <div class="type-badge ${type.toLowerCase()}">
+            ${type}
+          </div>
+        `).join("")}
+      </div>
+    ` : ""}
+
+    <div class="card-price-overlay">
+      <span>${item.price}</span>
+    </div>
+
+  </div>
+
+  <div class="card-title">${item.name}</div>
+`;
 
     card.onclick = () =>
       openPopup(item.image, item.name, GOOGLE_FORM_LINK);
@@ -147,7 +168,7 @@ function renderCommissionGrid() {
 
 async function loadCommission() {
   try {
-    const res = await fetch("json/commission.json");
+    const res = await fetch("/json/commission.json");
     const data = await res.json();
 
     commissionItems = data.items || [];
@@ -167,6 +188,7 @@ function initCarousel() {
   let position = 0;
   const speed = 0.6;
 
+  // IMPORTANT: duplicate content once (needed for seamless loop)
   const original = track.innerHTML;
   track.innerHTML = original + original;
 
@@ -185,6 +207,27 @@ function initCarousel() {
   }
 
   animate();
+}
+
+function buildCarousel() {
+  const track = document.getElementById("clientCarousel");
+  if (!track) return;
+
+  track.innerHTML = clientWorks.map(item => `
+    <div class="carousel-card">
+
+      <div class="card-type-overlay">
+        ${item.types.map(type => `
+          <div class="type-badge ${type.toLowerCase()}">
+            ${type}
+          </div>
+        `).join("")}
+      </div>
+
+      <img src="${item.src}" class="carousel-item clickable-work">
+
+    </div>
+  `).join("");
 }
 
 /* =========================
@@ -226,8 +269,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   initScrollProgress();
   initLightbox();
+  buildCarousel();
   initCarousel();
-  initScrollTop();
+  initScrollTop()
 
   loadCommission();
 
