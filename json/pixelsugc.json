@@ -3,344 +3,344 @@
     {
       "name": "Bouncy Head Luke",
       "price": "19 $PIXELS",
-      "image": "assets/items/Bouncy-Head-Luke.gif",
-      "gif": "assets/items/Bouncy-Head-Luke.gif",
+      "image": "/assets/items/Bouncy-Head-Luke.gif",
+      "gif": "/assets/items/Bouncy-Head-Luke.gif",
       "types": ["Pixels UGC"]
     },
     {
       "name": "Bouncy Head Heidi",
       "price": "19 $PIXELS",
-      "image": "assets/items/Bouncy-Head-Heidi.gif",
-      "gif": "assets/items/Bouncy-Head-Heidi.gif",
+      "image": "/assets/items/Bouncy-Head-Heidi.gif",
+      "gif": "/assets/items/Bouncy-Head-Heidi.gif",
       "types": ["Pixels UGC"]
     },
     {
       "name": "MetaHeadquarter",
       "price": "14 $PIXELS",
-      "image": "assets/items/MetaHeadQuarter.gif",
-      "gif": "assets/items/MetaHeadQuarter.gif",
+      "image": "/assets/items/MetaHeadQuarter.gif",
+      "gif": "/assets/items/MetaHeadQuarter.gif",
       "types": ["MetaHeadverse Pixels UGC"]
     },
     {
       "name": "Turd Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Turd-Bob.gif",
-      "gif": "assets/items/Turd-Bob.gif",
+      "image": "/assets/items/Turd-Bob.gif",
+      "gif": "/assets/items/Turd-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Lava Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Lava-Bob.gif",
-      "gif": "assets/items/Lava-Bob.gif",
+      "image": "/assets/items/Lava-Bob.gif",
+      "gif": "/assets/items/Lava-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Spider Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Spider-Bob.gif",
-      "gif": "assets/items/Spider-Bob.gif",
+      "image": "/assets/items/Spider-Bob.gif",
+      "gif": "/assets/items/Spider-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Sunflower Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Sunflower-Bob.gif",
-      "gif": "assets/items/Sunflower-Bob.gif",
+      "image": "/assets/items/Sunflower-Bob.gif",
+      "gif": "/assets/items/Sunflower-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Sun Bob Niba",
       "price": "19 $PIXELS",
-      "image": "assets/items/Sun-Bob-Niba.gif",
-      "gif": "assets/items/Sun-Bob-Niba.gif",
+      "image": "/assets/items/Sun-Bob-Niba.gif",
+      "gif": "/assets/items/Sun-Bob-Niba.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Draco Primal Dragon Form",
       "price": "39 $PIXELS",
-      "image": "assets/items/Draco-Primal-Dragon-Form.gif",
-      "gif": "assets/items/Draco-Primal-Dragon-Form.gif",
+      "image": "/assets/items/Draco-Primal-Dragon-Form.gif",
+      "gif": "/assets/items/Draco-Primal-Dragon-Form.gif",
       "types": ["Pixels UGC"]
     },
     {
       "name": "Bouncy Heads Bundle",
       "price": "29 $PIXELS",
-      "image": "assets/items/Bouncy-Heads-Bundle.gif",
-      "gif": "assets/items/Bouncy-Heads-Bundle.gif",
+      "image": "/assets/items/Bouncy-Heads-Bundle.gif",
+      "gif": "/assets/items/Bouncy-Heads-Bundle.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Bob Ross",
       "price": "19 $PIXELS",
-      "image": "assets/items/Bob-Ross.gif",
-      "gif": "assets/items/Bob-Ross.gif",
+      "image": "/assets/items/Bob-Ross.gif",
+      "gif": "/assets/items/Bob-Ross.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Mecha Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Mecha-Bob.gif",
-      "gif": "assets/items/Mecha-Bob.gif",
+      "image": "/assets/items/Mecha-Bob.gif",
+      "gif": "/assets/items/Mecha-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Dino Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Dino-Bob.gif",
-      "gif": "assets/items/Dino-Bob.gif",
+      "image": "/assets/items/Dino-Bob.gif",
+      "gif": "/assets/items/Dino-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Zombie Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Zombie-Bob.gif",
-      "gif": "assets/items/Zombie-Bob.gif",
+      "image": "/assets/items/Zombie-Bob.gif",
+      "gif": "/assets/items/Zombie-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Nugget Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Nugget-Bob.gif",
-      "gif": "assets/items/Nugget-Bob.gif",
+      "image": "/assets/items/Nugget-Bob.gif",
+      "gif": "/assets/items/Nugget-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Samurai Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Samurai-Bob.gif",
-      "gif": "assets/items/Samurai-Bob.gif",
+      "image": "/assets/items/Samurai-Bob.gif",
+      "gif": "/assets/items/Samurai-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Cerberus Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Cerberus-Bob.gif",
-      "gif": "assets/items/Cerberus-Bob.gif",
+      "image": "/assets/items/Cerberus-Bob.gif",
+      "gif": "/assets/items/Cerberus-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Archead Stone Remnant",
       "price": "14 $PIXELS",
-      "image": "assets/items/Archead-Stone-Remnant.gif",
-      "gif": "assets/items/Archead-Stone-Remnant.gif",
+      "image": "/assets/items/Archead-Stone-Remnant.gif",
+      "gif": "/assets/items/Archead-Stone-Remnant.gif",
       "types": ["MetaHeadverse Pixels UGC"]
     },
     {
       "name": "Greengineer Lab Experiment 111101",
       "price": "19 $PIXELS",
-      "image": "assets/items/Greengineer-Lab-Experiment-111101.gif",
-      "gif": "assets/items/Greengineer-Lab-Experiment-111101.gif",
+      "image": "/assets/items/Greengineer-Lab-Experiment-111101.gif",
+      "gif": "/assets/items/Greengineer-Lab-Experiment-111101.gif",
       "types": ["MetaHeadverse Pixels UGC"]
     },
     {
       "name": "Duo Dragons Bundle",
       "price": "59 $PIXELS",
-      "image": "assets/items/Duo-Dragons.gif",
-      "gif": "assets/items/Duo-Dragons.gif",
+      "image": "/assets/items/Duo-Dragons.gif",
+      "gif": "/assets/items/Duo-Dragons.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Pupivor Nightmare Form",
       "price": "39 $PIXELS",
-      "image": "assets/items/Pupivor-Nightmare-Form.gif",
-      "gif": "assets/items/Pupivor-Nightmare-Form.gif",
+      "image": "/assets/items/Pupivor-Nightmare-Form.gif",
+      "gif": "/assets/items/Pupivor-Nightmare-Form.gif",
       "types": ["Pixels UGC"]
     },
     {
       "name": "Petru Colossal Form",
       "price": "39 $PIXELS",
-      "image": "assets/items/Petru-Colossal-Form.gif",
-      "gif": "assets/items/Petru-Colossal-Form.gif",
+      "image": "/assets/items/Petru-Colossal-Form.gif",
+      "gif": "/assets/items/Petru-Colossal-Form.gif",
       "types": ["Pixels UGC"]
     },
     {
       "name": "Azuron Primal Dragon Form",
       "price": "39 $PIXELS",
-      "image": "assets/items/Azuron-Primal-Dragon-Form.gif",
-      "gif": "assets/items/Azuron-Primal-Dragon-Form.gif",
+      "image": "/assets/items/Azuron-Primal-Dragon-Form.gif",
+      "gif": "/assets/items/Azuron-Primal-Dragon-Form.gif",
       "types": ["Pixels UGC"]
     },
     {
       "name": "MetaHead Statue",
       "price": "14 $PIXELS",
-      "image": "assets/items/MetaHead-Statue.png",
-      "gif": "assets/items/MetaHead-Statue.png",
+      "image": "/assets/items/MetaHead-Statue.png",
+      "gif": "/assets/items/MetaHead-Statue.png",
       "types": ["MetaHeadverse Pixels UGC"]
     },
     {
       "name": "Pixels Scythe",
       "price": "19 $PIXELS",
-      "image": "assets/items/Pixels-Scythe.gif",
-      "gif": "assets/items/Pixels-Scythe.gif",
+      "image": "/assets/items/Pixels-Scythe.gif",
+      "gif": "/assets/items/Pixels-Scythe.gif",
       "types": ["Wall Decor Pixels UGC","Upcoming"]
     },
     {
       "name": "Pixels Shield",
       "price": "19 $PIXELS",
-      "image": "assets/items/Pixels-Shield.gif",
-      "gif": "assets/items/Pixels-Shield.gif",
+      "image": "/assets/items/Pixels-Shield.gif",
+      "gif": "/assets/items/Pixels-Shield.gif",
       "types": ["Wall Decor Pixels UGC","Upcoming"]
     },
     {
       "name": "Pixels Sword",
       "price": "19 $PIXELS",
-      "image": "assets/items/Pixels-Sword.gif",
-      "gif": "assets/items/Pixels-Sword.gif",
+      "image": "/assets/items/Pixels-Sword.gif",
+      "gif": "/assets/items/Pixels-Sword.gif",
       "types": ["Wall Decor Pixels UGC","Upcoming"]
     },
     {
       "name": "Pixels Axe",
       "price": "19 $PIXELS",
-      "image": "assets/items/Pixels-Axe.gif",
-      "gif": "assets/items/Pixels-Axe.gif",
+      "image": "/assets/items/Pixels-Axe.gif",
+      "gif": "/assets/items/Pixels-Axe.gif",
       "types": ["Wall Decor Pixels UGC","Upcoming"]
     },
     {
       "name": "Pixels Pickaxe",
       "price": "19 $PIXELS",
-      "image": "assets/items/Pixels-Pickaxe.gif",
-      "gif": "assets/items/Pixels-Pickaxe.gif",
+      "image": "/assets/items/Pixels-Pickaxe.gif",
+      "gif": "/assets/items/Pixels-Pickaxe.gif",
       "types": ["Wall Decor Pixels UGC","Upcoming"]
     },
     {
       "name": "Pixels Shovel",
       "price": "19 $PIXELS",
-      "image": "assets/items/Pixels-Shovel.gif",
-      "gif": "assets/items/Pixels-Shovel.gif",
+      "image": "/assets/items/Pixels-Shovel.gif",
+      "gif": "/assets/items/Pixels-Shovel.gif",
       "types": ["Wall Decor Pixels UGC","Upcoming"]
     },
     {
       "name": "Ragpoet Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Ragpoet-Bob.gif",
-      "gif": "assets/items/Ragpoet-Bob.gif",
+      "image": "/assets/items/Ragpoet-Bob.gif",
+      "gif": "/assets/items/Ragpoet-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Luke Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Luke-Bob.gif",
-      "gif": "assets/items/Luke-Bob.gif",
+      "image": "/assets/items/Luke-Bob.gif",
+      "gif": "/assets/items/Luke-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Heidi Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Heidi-Bob.gif",
-      "gif": "assets/items/Heidi-Bob.gif",
+      "image": "/assets/items/Heidi-Bob.gif",
+      "gif": "/assets/items/Heidi-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Sophia Bob",
       "price": "19 $PIXELS",
-      "image": "assets/items/Sophia-Bob.gif",
-      "gif": "assets/items/Sophia-Bob.gif",
+      "image": "/assets/items/Sophia-Bob.gif",
+      "gif": "/assets/items/Sophia-Bob.gif",
       "types": ["Bobverse UGC"]
     },
     {
       "name": "Big Toys for Big Boys Bundle 1",
       "price": "79 $PIXELS",
-      "image": "assets/items/Big-Toys-for-Big-Boys-Bundle-1.gif",
-      "gif": "assets/items/Big-Toys-for-Big-Boys-Bundle-1.gif",
+      "image": "/assets/items/Big-Toys-for-Big-Boys-Bundle-1.gif",
+      "gif": "/assets/items/Big-Toys-for-Big-Boys-Bundle-1.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Big Toys for Big Boys Bundle 2",
       "price": "79 $PIXELS",
-      "image": "assets/items/Big-Toys-for-Big-Boys-Bundle-2.gif",
-      "gif": "assets/items/Big-Toys-for-Big-Boys-Bundle-2.gif",
+      "image": "/assets/items/Big-Toys-for-Big-Boys-Bundle-2.gif",
+      "gif": "/assets/items/Big-Toys-for-Big-Boys-Bundle-2.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Big Toys for Big Boys Bundle 3",
       "price": "79 $PIXELS",
-      "image": "assets/items/Big-Toys-for-Big-Boys-Bundle-3.gif",
-      "gif": "assets/items/Big-Toys-for-Big-Boys-Bundle-3.gif",
+      "image": "/assets/items/Big-Toys-for-Big-Boys-Bundle-3.gif",
+      "gif": "/assets/items/Big-Toys-for-Big-Boys-Bundle-3.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Big Toys for Big Boys Bundle 4",
       "price": "79 $PIXELS",
-      "image": "assets/items/Big-Toys-for-Big-Boys-Bundle-4.gif",
-      "gif": "assets/items/Big-Toys-for-Big-Boys-Bundle-4.gif",
+      "image": "/assets/items/Big-Toys-for-Big-Boys-Bundle-4.gif",
+      "gif": "/assets/items/Big-Toys-for-Big-Boys-Bundle-4.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Big Toys for Big Boys Bundle 5",
       "price": "99 $PIXELS",
-      "image": "assets/items/Big-Toys-for-Big-Boys-Bundle-5.gif",
-      "gif": "assets/items/Big-Toys-for-Big-Boys-Bundle-5.gif",
+      "image": "/assets/items/Big-Toys-for-Big-Boys-Bundle-5.gif",
+      "gif": "/assets/items/Big-Toys-for-Big-Boys-Bundle-5.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Bobverse Bundle 1",
       "price": "69 $PIXELS",
-      "image": "assets/items/Bobverse-Bundle-1.gif",
-      "gif": "assets/items/Bobverse-Bundle-1.gif",
+      "image": "/assets/items/Bobverse-Bundle-1.gif",
+      "gif": "/assets/items/Bobverse-Bundle-1.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Bobverse Bundle 2",
       "price": "69 $PIXELS",
-      "image": "assets/items/Bobverse-Bundle-2.gif",
-      "gif": "assets/items/Bobverse-Bundle-2.gif",
+      "image": "/assets/items/Bobverse-Bundle-2.gif",
+      "gif": "/assets/items/Bobverse-Bundle-2.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Bobverse Bundle 3",
       "price": "69 $PIXELS",
-      "image": "assets/items/Bobverse-Bundle-3.gif",
-      "gif": "assets/items/Bobverse-Bundle-3.gif",
+      "image": "/assets/items/Bobverse-Bundle-3.gif",
+      "gif": "/assets/items/Bobverse-Bundle-3.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Bobverse Bundle 4",
       "price": "49 $PIXELS",
-      "image": "assets/items/Bobverse-Bundle-4.gif",
-      "gif": "assets/items/Bobverse-Bundle-4.gif",
+      "image": "/assets/items/Bobverse-Bundle-4.gif",
+      "gif": "/assets/items/Bobverse-Bundle-4.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Bobverse Bundle Pixel Team",
       "price": "69 $PIXELS",
-      "image": "assets/items/Bobverse-Bundle-Pixel-Team.gif",
-      "gif": "assets/items/Bobverse-Bundle-Pixel-Team.gif",
+      "image": "/assets/items/Bobverse-Bundle-Pixel-Team.gif",
+      "gif": "/assets/items/Bobverse-Bundle-Pixel-Team.gif",
       "types": ["Bundles UGC"]
     },
     {
       "name": "Barkane Beast Form",
       "price": "39 $PIXELS",
-      "image": "assets/items/Barkane-Beast-Form.gif",
-      "gif": "assets/items/Barkane-Beast-Form.gif",
+      "image": "/assets/items/Barkane-Beast-Form.gif",
+      "gif": "/assets/items/Barkane-Beast-Form.gif",
       "types": ["Pixels UGC","Upcoming"]
     },
     {
       "name": "Lemon Tree",
       "price": "19 $PIXELS",
-      "image": "assets/items/Lemon-Tree.png",
-      "gif": "assets/items/Lemon-Tree.png",
+      "image": "/assets/items/Lemon-Tree.png",
+      "gif": "/assets/items/Lemon-Tree.png",
       "types": ["Pixels UGC","Upcoming"]
     },
     {
       "name": "Apple Tree",
       "price": "19 $PIXELS",
-      "image": "assets/items/Apple-Tree.png",
-      "gif": "assets/items/Apple-Tree.png",
+      "image": "/assets/items/Apple-Tree.png",
+      "gif": "/assets/items/Apple-Tree.png",
       "types": ["Pixels UGC","Upcoming"]
     },
     {
       "name": "Pixels Helmet",
       "price": "19 $PIXELS",
-      "image": "assets/items/Pixels-Helmet.gif",
-      "gif": "assets/items/Pixels-Helmet.gif",
+      "image": "/assets/items/Pixels-Helmet.gif",
+      "gif": "/assets/items/Pixels-Helmet.gif",
       "types": ["Wall Decor Pixels UGC","Upcoming"]
     },
     {
       "name": "Pixels Warhammer",
       "price": "19 $PIXELS",
-      "image": "assets/items/Pixels-Warhammer.gif",
-      "gif": "assets/items/Pixels-Warhammer.gif",
+      "image": "/assets/items/Pixels-Warhammer.gif",
+      "gif": "/assets/items/Pixels-Warhammer.gif",
       "types": ["Wall Decor Pixels UGC","Upcoming"]
     }
   ]
