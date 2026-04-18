@@ -10,17 +10,18 @@
 </head>
 <body>
 
+<!-- SCROLL PROGRESS -->
 <div id="scrollProgress"></div>
 
 <header>
   <nav>
-    <div class="logo" onclick="navigate('/')">
+    <div class="logo" onclick="window.location.href='/'">
       <img src="/assets/me.png" alt="Saishi" class="logo-avatar">
       <span class="logo-text">PIXELATED SAISHI</span>
     </div>
 
     <ul class="menu">
-      <li><a href="/" class="current">About Me</a></li>
+      <li><a href="/aboutme/" class="current">About Me</a></li>
 
       <li>
         <a href="/pixelsugc/">Pixels UGC Catalog</a>
@@ -54,25 +55,26 @@
   Creator Code: <strong>Saishi</strong> for 5% Pixels Purchase in-game
 </div>
 
+<!-- MOBILE OVERLAY -->
 <div class="mobile-menu-overlay" id="mobileOverlay" onclick="toggleMobile()"></div>
 
 <div class="mobile-menu" id="mobileMenu">
   <div class="mobile-close" onclick="toggleMobile()">✕</div>
 
   <ul>
-    <li><a href="/" class="current">About Me</a></li>
+    <li><a href="/aboutme/" class="current">About Me</a></li>
 
     <li class="has-submenu">
       <a onclick="toggleSubmenu(this)">
         Pixels UGC Catalog <span class="arrow">▶</span>
       </a>
       <ul class="mobile-submenu">
-        <li><a href="/pixelsugc/#bundles">Bundle Pixels UGC</a></li>
+        <<li><a href="/pixelsugc/#bundles">Bundle Pixels UGC</a></li>
         <li><a href="/pixelsugc/#pixelsugc">Pixels UGC</a></li>
         <li><a href="/pixelsugc/#walldecor">Wall Decor Pixels UGC</a></li>
         <li><a href="/pixelsugc/#metaheadverse">MetaHeadverse Pixels UGC</a></li>
         <li><a href="/pixelsugc/#bobverse">Bobverse Pixels UGC</a></li>
-      </ul>
+        </ul>
     </li>
 
     <li class="has-submenu">
@@ -135,6 +137,6 @@
 
 <button id="scrollTopBtn" onclick="scrollToTop()">⇧</button>
 
-<script src="/js/index.js"></script>
+<script src="/js/aboutme.js"></script>
 </body>
 </html>
