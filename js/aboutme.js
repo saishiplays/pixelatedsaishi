@@ -51,31 +51,22 @@ document.querySelectorAll(".mobile-submenu a").forEach(link => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const scrollBtn = document.getElementById("scrollTopBtn");
+  scrollBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});
 
-  if (!scrollBtn) return;
+const scrollBtn = document.getElementById("scrollTopBtn");
 
 window.addEventListener("scroll", () => {
   const scrollY = window.scrollY || document.documentElement.scrollTop;
-
-  const scrollBtn = document.getElementById("scrollTopBtn");
-  if (!scrollBtn) return;
 
   if (scrollY > 300) {
     scrollBtn.classList.add("show");
   } else {
     scrollBtn.classList.remove("show");
   }
-
-  const scroll = document.documentElement.scrollTop;
-  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  const scrolled = (scroll / height) * 100;
-
-  const progress = document.getElementById("scrollProgress");
-  if (progress) progress.style.width = scrolled + "%";
 });
-
-const scrollBtn = document.getElementById("scrollTopBtn");
 
 function scrollToTop() {
   window.scrollTo({
