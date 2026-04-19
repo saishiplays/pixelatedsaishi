@@ -342,6 +342,13 @@
       "image": "/assets/items/Pixels-Warhammer.gif",
       "gif": "/assets/items/Pixels-Warhammer.gif",
       "types": ["Wall Decor Pixels UGC","Upcoming"]
+    },
+    {
+      "name": "King Banarion Primal Beast Form",
+      "price": "39 $PIXELS",
+      "image": "/assets/items/King-Banarion.gif",
+      "gif": "/assets/items/King-Banarion.gif",
+      "types": ["Pixels UGC","Upcoming"]
     }
   ]
 }
