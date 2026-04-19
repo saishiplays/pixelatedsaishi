@@ -21,7 +21,7 @@
       "image": "/assets/medium-static-sample.png",
       "pricing": "$9.99 - $12.99",
       "type": "Medium UGC [File: PNG] Pixels UGC",
-      "size": "46x79 px [Small Size Range: 56–100 px]",
+      "size": "46x79 px [Medium Size Range: 56–100 px]",
       "frames": "1 frame"
     },
     {
@@ -29,7 +29,7 @@
       "image": "/assets/medium-animated-sample.gif",
       "pricing": "$11.99 - $14.99",
       "type": "Medium UGC [File: GIF] Pixels UGC",
-      "size": "48x82 px [Small Size Range: 56–100 px]",
+      "size": "48x82 px [Medium Size Range: 56–100 px]",
       "frames": "8 frames"
     },
     {
