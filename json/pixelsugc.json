@@ -349,6 +349,20 @@
       "image": "/assets/items/King-Banarion.gif",
       "gif": "/assets/items/King-Banarion.gif",
       "types": ["Pixels UGC","Upcoming"]
+    },
+    {
+      "name": "Goldrath Primal Dragon Form",
+      "price": "39 $PIXELS",
+      "image": "/assets/items/Goldrath.gif",
+      "gif": "/assets/items/Goldrath.gif",
+      "types": ["Pixels UGC","Upcoming"]
+    },
+    {
+      "name": "Florax Primal Dragon Form",
+      "price": "39 $PIXELS",
+      "image": "/assets/items/Florax.gif",
+      "gif": "/assets/items/Florax.gif",
+      "types": ["Pixels UGC","Upcoming"]
     }
   ]
 }
