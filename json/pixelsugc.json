@@ -363,6 +363,20 @@
       "image": "/assets/items/Florax.gif",
       "gif": "/assets/items/Florax.gif",
       "types": ["Pixels UGC","Upcoming"]
+    },
+    {
+      "name": "Pixels Chest Plate",
+      "price": "19 $PIXELS",
+      "image": "/assets/items/Pixels-Chest-plate.gif",
+      "gif": "/assets/items/Pixels-Chest-plate.gif",
+      "types": ["Wall Decor Pixels UGC","Upcoming"]
+    },
+    {
+      "name": "Pixels Greaves and Sabatons",
+      "price": "19 $PIXELS",
+      "image": "/assets/items/Pixels-Greaves-Sabatons.gif",
+      "gif": "/assets/items/Pixels-Greaves-Sabatons.gif",
+      "types": ["Wall Decor Pixels UGC","Upcoming"]
     }
   ]
 }
