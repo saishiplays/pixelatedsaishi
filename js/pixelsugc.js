@@ -216,6 +216,7 @@ function openPopup(item) {
   overlay.style.display = "flex";
 }
 
+
 function openActionPopup() {
   document.getElementById("actionOverlay").style.display = "flex";
 }
@@ -226,10 +227,6 @@ function closeActionPopup() {
 
 function openGoogleForm() {
   window.open("https://forms.gle/NComiSEFEUrrpAvp8", "_blank");
-}
-
-function openDiscord() {
-  window.open("https://discord.gg/x8SvPAWNCn", "_blank");
 }
 
 document.getElementById("actionOverlay").onclick = closeActionPopup;
