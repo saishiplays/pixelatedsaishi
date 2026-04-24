@@ -7,10 +7,10 @@ let commissionItems = [];
 let currentGoogleFormLink = GOOGLE_FORM_LINK;
 
 const clientWorks = [
-  { src: "../assets/clientworks/swing.gif", types: ["Pending"] },
-  { src: "../assets/clientworks/teddy.gif", types: ["Pending"] },
+  { src: "../assets/clientworks/swing.gif", types: ["Integrated"] },
+  { src: "../assets/clientworks/teddy.gif", types: ["Integrated"] },
   { src: "../assets/clientworks/bobinoor.gif", types: ["Integrated"] },
-  { src: "../assets/clientworks/moon.gif", types: ["Pending"] },
+  { src: "../assets/clientworks/moon.gif", types: ["Integrated"] },
   { src: "../assets/clientworks/stateu.gif", types: ["Integrated"] }
 ];
 
