@@ -288,6 +288,27 @@
       "types": ["Bundles UGC"]
     },
     {
+      "name": "Big Toys for Big Boys Bundle 6",
+      "price": "29 $PIXELS",
+      "image": "/assets/items/Big-Toys-for-Big-Boys-Bundle-6.gif",
+      "gif": "/assets/items/Big-Toys-for-Big-Boys-Bundle-6.gif",
+      "types": ["Bundles UGC"]
+    },
+    {
+      "name": "Big Toys for Big Boys Bundle 7",
+      "price": "29 $PIXELS",
+      "image": "/assets/items/Big-Toys-for-Big-Boys-Bundle-7.gif",
+      "gif": "/assets/items/Big-Toys-for-Big-Boys-Bundle-7.gif",
+      "types": ["Bundles UGC"]
+    },
+    {
+      "name": "Big Toys for Big Boys Bundle 8",
+      "price": "39 $PIXELS",
+      "image": "/assets/items/Big-Toys-for-Big-Boys-Bundle-8.gif",
+      "gif": "/assets/items/Big-Toys-for-Big-Boys-Bundle-8.gif",
+      "types": ["Bundles UGC"]
+    },
+    {
       "name": "Bobverse Bundle 1",
       "price": "29 $PIXELS",
       "image": "/assets/items/Bobverse-Bundle-1.gif",
