@@ -334,14 +334,14 @@
       "price": "10 $PIXELS",
       "image": "/assets/items/Lemon-Tree.png",
       "gif": "/assets/items/Lemon-Tree.png",
-      "types": ["Pixels UGC"]
+      "types": ["Pixels UGC","Upcoming"]
     },
     {
       "name": "Apple Tree",
       "price": "10 $PIXELS",
       "image": "/assets/items/Apple-Tree.png",
       "gif": "/assets/items/Apple-Tree.png",
-      "types": ["Pixels UGC"]
+      "types": ["Pixels UGC","Upcoming"]
     },
     {
       "name": "Pixels Helmet",
