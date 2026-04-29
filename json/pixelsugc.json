@@ -150,8 +150,8 @@
     {
       "name": "Dragons Squad",
       "price": "39 $PIXELS",
-      "image": "/assets/items/Dragons-Squad.gif",
-      "gif": "/assets/items/Dragons-Squad.gif",
+      "image": "/assets/items/Dragon-Squad.gif",
+      "gif": "/assets/items/Dragon-Squad.gif",
       "types": ["Bundles UGC"]
     },
     {
