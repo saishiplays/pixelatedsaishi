@@ -141,10 +141,17 @@
       "types": ["Bundles UGC"]
     },
     {
-      "name": "Duo Dragons Bundle",
+      "name": "Duo Dragons Bundle 1",
       "price": "19 $PIXELS",
       "image": "/assets/items/Duo-Dragons-Bundle-1.gif",
       "gif": "/assets/items/Duo-Dragons-Bundle-1.gif",
+      "types": ["Bundles UGC"]
+    },
+    {
+      "name": "Dragons Squad",
+      "price": "39 $PIXELS",
+      "image": "/assets/items/Dragons-Squad.gif",
+      "gif": "/assets/items/Dragons-Squad.gif",
       "types": ["Bundles UGC"]
     },
     {
