@@ -141,6 +141,13 @@
       "types": ["Bundles UGC"]
     },
     {
+      "name": "Duo Dragons Bundle",
+      "price": "19 $PIXELS",
+      "image": "/assets/items/Duo-Dragons-Bundle-1.gif",
+      "gif": "/assets/items/Duo-Dragons-Bundle-1.gif",
+      "types": ["Bundles UGC"]
+    },
+    {
       "name": "Pupivor Nightmare Form",
       "price": "10 $PIXELS",
       "image": "/assets/items/Pupivor-Nightmare-Form.gif",
